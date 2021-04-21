@@ -1,0 +1,95 @@
+.option-item {
+  background-color: #f4f1ea;
+  border: none;
+  border-radius: 12px;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .option-item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .option-item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.selected-option-item {
+  background-color: #0e8684;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    max-width: 270px;
+    min-height: 150px;
+    padding: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-container {
+    max-width: 320px;
+    padding: 32px;
+  }
+}
+
+.coffee-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  color: #2e353d;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 1200px) {
+  .card-title {
+    font-size: 24px;
+  }
+}
+
+.selected-card-title {
+  color: #ffffff;
+}
+
+.card-description {
+  color: #64748b;
+  font-size: 16px;
+}
+
+.selected-card-description {
+  color: #ffffff;
+}
+
+.coffee-cup {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+  .coffee-cup {
+    width: 52px;
+    height: 52px;
+  }
+}

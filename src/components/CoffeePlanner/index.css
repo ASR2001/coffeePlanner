@@ -1,0 +1,143 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/coffee-planner-bg.png');
+  background-size: cover;
+  height: 300px;
+  padding-right: 18px;
+  padding-left: 18px;
+  max-height: 491px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-section {
+    justify-content: flex-end;
+    padding-right: 48px;
+  }
+}
+
+.coffee-planner-details-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 384px;
+}
+
+.heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+}
+
+.description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 16px;
+  }
+}
+
+.coffee-planner-body {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  width: 90%;
+  padding-bottom: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+  .coffee-planner-body {
+    width: 95%;
+    padding-bottom: 92px;
+  }
+}
+
+.coffee-planner-questions-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .button-container {
+    margin-top: 48px;
+  }
+}
+
+.create-my-plan-button {
+  align-self: center;
+  color: #ffffff;
+  background-color: #0e8684;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-right: 18px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+  outline: none;
+  cursor: pointer;
+}
+
+.summary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e353d;
+  border: 1px solid #7c2d12;
+  border-radius: 12px;
+  margin-top: 24px;
+  padding-top: 14px;
+  padding-right: 24px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  max-width: 769px;
+}
+
+@media screen and (min-width: 1200px) {
+  .summary-container {
+    margin-top: 32px;
+  }
+}
+
+.summary {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .summary {
+    font-size: 24px;
+  }
+}
+
+.selected-value {
+  color: #0e8684;
+}

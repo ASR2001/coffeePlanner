@@ -1,0 +1,46 @@
+.coffee-planner-question-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+}
+
+@media screen and (min-width: 1200px) {
+  .coffee-planner-question-item {
+    margin-top: 32px;
+  }
+}
+
+.question {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .question {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .question {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+.options-list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .options-list-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
